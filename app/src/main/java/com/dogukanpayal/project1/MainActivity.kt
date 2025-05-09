@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        /*
         println("Hello World")
         println("Dogukan Payal")
         // yorum satırı
@@ -63,11 +64,28 @@ class MainActivity : AppCompatActivity() {
         val kullaiciYas = "35"
         println(kullaiciYas.toInt()>40)
 
-        val arrayOrnegi = arrayOf("Dogukan","Payal")
 
         println(arrayOrnegi[1])
 
 
+
+        var notRakam : Int
+        var notString = ""
+        notRakam= 2
+
+        when(notRakam){
+            0 -> notString = "Geçersiz Not"
+            1 -> notString = "Geçer Not"
+            else -> notString = "Böyle bir not yok"
+        }
+        println(notString)
+        */
+
+        val arrayOrnegi = arrayOf("Dogukan","Payal")
+
+        for(kelime in arrayOrnegi){
+            println(kelime)
+        }
 
 
 
